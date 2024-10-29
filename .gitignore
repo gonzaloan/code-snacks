@@ -1,0 +1,35 @@
+!vendor/
+
+# Profiling data
+profile.cpu
+cover.out
+
+/vendor
+
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea
+*.iml
+*.suo
+*.sln
+*.user
+*.cache
+*.nvim
+
+# Local configuration
+.env
+.gitconfig
+.aws/credentials
+.aws/config
+
+# Log files
+*.log
+
+# Test and coverage
+/test
+/coverage
+
+# AWS SAM specific files
+.aws-sam
